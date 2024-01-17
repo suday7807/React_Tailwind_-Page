@@ -30,8 +30,8 @@ const Home = () => {
         </button>
       </div>
 
-      <div onClick={handleFlip}>
-        <div
+      <div>
+        <div onClick={handleFlip}
           className={`${
             flip
               ? "flex justify-center rounded-2xl bg-gradient-to-b from-blue-950 to-blue-600 h-[394px] w-[712px] mx-auto items-center transform rotate-y-180 transition-transform duration-300 ease-in-out"
