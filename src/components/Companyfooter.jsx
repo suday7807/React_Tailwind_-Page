@@ -5,8 +5,8 @@ import mainLogo from "../assets/Capture.PNG";
 const Companyfooter = () => {
   return (
     <div className=" text-blue-400 flex justify-between m-10 ml-20 mr-20">
-      <img src={mainLogo} alt="hi" className=" h-20 w-30" />
-      <div className=" flex gap-1 items-center">
+      <img src={mainLogo} alt="hi" className="  h-20 w-30" />
+      <div className=" flex gap-1 items-center  cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="60"
@@ -32,7 +32,7 @@ const Companyfooter = () => {
             </linearGradient>
           </defs>
         </svg>{" "}
-        <span className=" text-2xl font-bold bg-gradient-to-b from-blue-950 to-blue-600 text-transparent bg-clip-text">
+        <span className="cursor-pointer text-2xl font-bold bg-gradient-to-b from-blue-950 to-blue-600 text-transparent bg-clip-text">
           Create Flashcard
         </span>
       </div>
