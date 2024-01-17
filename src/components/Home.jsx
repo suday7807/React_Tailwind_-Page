@@ -3,7 +3,7 @@ import { MdOutlineLightbulb } from "react-icons/md";
 import { HiSpeakerWave } from "react-icons/hi2";
 
 const Home = () => {
-  const [flip, setFlip] = useState(false);
+  const [flip, setFlip] = useState(true);
   const handleFlip = () => {
     setFlip((prev) => !prev);
   };
